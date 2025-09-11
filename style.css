@@ -1,0 +1,247 @@
+/*=====================
+FONTS LINK HERE
+======================*/
+@font-face {
+	font-family: "MadaniArabic";
+	src: url(fonts/MadaniArabicRegular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "MadaniArabic";
+	src: url(fonts/MadaniArabicMedium.ttf);
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "MadaniArabic";
+	src: url(fonts/MadaniArabicSemiBold.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "MadaniArabic";
+	src: url(fonts/MadaniArabicBold.ttf);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "MadaniArabic";
+	src: url(fonts/MadaniArabicExtraBold.ttf);
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "MadaniArabic";
+	src: url(fonts/MadaniArabicBlack.ttf);
+	font-weight: 900;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*======================
+DEFAULT CSS HERE
+========================*/
+body {
+	font-family: "MadaniArabic";
+	font-size: 16px;
+	font-weight: 400;
+	background: #fff;
+	color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+::selection {
+	color: white;
+	background: #ff7675;
+}
+
+::-webkit-selection {
+	color: white;
+	background: #ff7675;
+}
+
+::-moz-selection {
+	color: white;
+	background: #ff7675;
+}
+
+.scrolltotop {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	background: #008b8b;
+	text-align: center;
+	font-size: 22px;
+	color: #ffffff;
+	position: fixed;
+	right: 30px;
+	bottom: 25px;
+	display: none;
+	animation: lab_top_up 5s linear infinite;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	z-index: 1;
+}
+
+.scrolltotop i {
+	color: #ffff;
+}
+
+@keyframes lab_top_up {
+	0% {
+		transform: translateY(-15px);
+	}
+	50% {
+		transform: translateY(0px);
+	}
+	100% {
+		transform: translateY(-15px);
+	}
+}
+
+.pluse,
+.pluse2 {
+	position: relative;
+	top: 13px;
+	left: -8px;
+	z-index: -1;
+}
+
+.pluse::before,
+.pluse2::before {
+	width: 40px;
+	height: 40px;
+}
+
+.pluse::after,
+.pluse::before,
+.pluse2::after,
+.pluse2::before {
+	background: #008b8b;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	display: block;
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+
+.pluse::after,
+.pluse2::after {
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+
+.pluse::before {
+	-webkit-animation: pluse_animate 2.5s infinite linear;
+	animation: pluse_animate 2.5s infinite linear;
+}
+
+.pluse2::before {
+	-webkit-animation: pluse_animate 3s infinite linear;
+	animation: pluse_animate 3s infinite linear;
+}
+
+@keyframes pluse_animate {
+	0% {
+		opacity: 1;
+		-webkit-transform: translate(-50%, -50%) scale(0.3);
+		transform: translate(-50%, -50%) scale(0.3);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translate(-50%, -50%) scale(2);
+		transform: translate(-50%, -50%) scale(2);
+	}
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*======================
+Header Area CSS HERE
+========================*/
+.header-area {
+	padding: 43px 0;
+	background: #003d59;
+}
+
+.header-wrpper {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.header-wrpper .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.desktop-navbar ul {
+	display: flex;
+	align-items: center;
+	column-gap: 55px;
+}
+
+.desktop-navbar ul li a {
+	color: #fefaf3;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 120%;
+	transition: color 0.3s ease-in-out;
+}
+
+.desktop-navbar ul li a:hover,
+#menu-active a {
+	color: #f6ac6a;
+}
+
+.lang-controller ul {
+	column-gap: 18px;
+}
+
+.lang-controller ul li {
+	color: #fefaf3;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 120%;
+	padding: 7.5px 24.5px;
+	border-radius: 4px;
+	padding-bottom: 12px;
+}
+
+.lang-controller ul li:first-child {
+	background: #f5a359;
+}
