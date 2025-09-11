@@ -25,6 +25,10 @@ Extra Large Screen - Others
 	.desktop-navbar ul li a {
 		font-size: 17px;
 	}
+
+	.first-slider-area {
+		padding-right: calc((100% - 1140px) / 2);
+	}
 }
 
 /*========================
@@ -63,6 +67,10 @@ Large Screen - Leptop
 	.home-title-wrpper {
 		row-gap: 50px;
 	}
+
+	.first-slider-area {
+		padding-right: calc((100% - 960px) / 2);
+	}
 }
 
 /*=========================
@@ -96,6 +104,10 @@ Medium Screen - Tablate
 	}
 	.home-title-wrpper p {
 		font-size: 28px;
+	}
+
+	.first-slider-area {
+		padding-right: calc((100% - 720px) / 2);
 	}
 }
 
@@ -153,5 +165,23 @@ Xtra Small Screen - Small Mobile
 		padding: 20px 70px;
 		font-size: 22px;
 		border-radius: 10px;
+	}
+
+	.firstSlider {
+		display: none;
+	}
+	.first-slider-heading {
+		font-size: 23px;
+		text-align: center;
+	}
+	.mobile-screen-cards {
+		padding: 0 50px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+	.slider-item {
+		margin-right: 0;
+		margin-bottom: 0;
 	}
 }

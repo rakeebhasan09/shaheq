@@ -49,7 +49,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	background: #fff;
-	color: #333333;
+	color: #003d59;
 }
 
 h1,
@@ -313,4 +313,103 @@ FOOTER AREA CSS HERE
 .home-title-wrpper a:hover {
 	background: transparent;
 	color: #003d59;
+}
+
+/*========================
+FIRST SLIDER AREA CSS HERE
+==========================*/
+.first-slider-area {
+	padding-right: calc((100% - 1360px) / 2);
+}
+
+.first-slider-heading {
+	color: #003d59;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 43px;
+}
+
+.swiper {
+	/* width: 100%; */
+	margin-right: -15px;
+}
+
+.slider-item {
+	border-radius: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.6);
+	box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin-right: 15px;
+}
+
+.slider-thum img {
+	width: 100%;
+}
+
+.slider-cntn {
+	padding: 20px 10px;
+}
+
+.cntn-title,
+.price-btn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cntn-title h5 {
+	color: #003d59;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.cntn-title a {
+	color: #003d59;
+	font-size: 8px;
+	font-weight: 400;
+	line-height: 120%;
+	text-decoration: underline;
+}
+
+.cntn-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 11px;
+	padding-top: 10px;
+}
+
+.cntn-list span {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 120%;
+}
+
+.price-btn {
+	margin-top: 11px;
+}
+
+.price-btn p {
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+}
+
+.price-btn p span {
+	font-size: 16px;
+	line-height: 160%;
+}
+
+.price-btn button {
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+.mobile-screen-cards {
+	display: none;
 }
