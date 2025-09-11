@@ -35,7 +35,7 @@
 		<header class="header-area">
 			<div class="header-wrpper">
 				<div class="row align-items-center">
-					<div class="col-xl-2">
+					<div class="col-6 col-lg-2 col-xl-2">
 						<div class="main-logo">
 							<a href="index.html">
 								<img
@@ -45,7 +45,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-xl-8">
+					<div class="col-lg-8 col-xl-8 d-none d-lg-block">
 						<nav class="desktop-navbar">
 							<ul>
 								<li id="menu-active">
@@ -60,10 +60,21 @@
 							</ul>
 						</nav>
 					</div>
-					<div class="col-xl-2">
+					<div class="col-6 col-lg-2 col-xl-2">
 						<div class="lang-controller">
+							<div
+								class="hamburger-icon d-flex d-lg-none align-items-center justify-content-end"
+							>
+								<img
+									data-bs-toggle="offcanvas"
+									data-bs-target="#offcanvasRight"
+									aria-controls="offcanvasRight"
+									src="images/hamburger-icon.png"
+									alt="Hamburger Icon"
+								/>
+							</div>
 							<ul
-								class="d-flex align-items-center justify-content-end"
+								class="d-none d-lg-flex align-items-center justify-content-end"
 							>
 								<li>دخول</li>
 								<li>EN</li>
@@ -74,6 +85,47 @@
 			</div>
 		</header>
 		<!-- HEADER HERO AREA END -->
+
+		<!-- Mobile Menu Area Start -->
+		<aside
+			class="offcanvas offcanvas-end"
+			tabindex="-1"
+			id="offcanvasRight"
+			aria-labelledby="offcanvasRightLabel"
+		>
+			<div class="offcanvas-header">
+				<a href="index.html" id="offcanvasRightLabel">
+					<img
+						src="images/shaheq-main-logo.png"
+						alt="shaheq main logo"
+					/>
+				</a>
+				<button
+					type="button"
+					class="btn-close text-reset"
+					data-bs-dismiss="offcanvas"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="offcanvas-body">
+				<nav class="mobile-navbar">
+					<ul>
+						<li id="menu-active">
+							<a href="#">الصفحة الرئيسية</a>
+						</li>
+						<li><a href="#">عن شاهق</a></li>
+						<li><a href="#">الواجهات</a></li>
+						<li><a href="#">أنواع التجارب</a></li>
+						<li><a href="#">حجز رحلتك</a></li>
+						<li><a href="#">قصص السفر</a></li>
+						<li><a href="#">فريق المرشدين</a></li>
+						<li><a href="#"> دخول</a></li>
+						<li><a href="#">EN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</aside>
+		<!-- Mobile Menu Area End -->
 
 		<!-- Main jQuery -->
 		<script src="js/jquery-3.4.1.min.js"></script>

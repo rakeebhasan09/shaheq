@@ -200,8 +200,7 @@ Header Area CSS HERE
 }
 
 .header-wrpper {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 0 50px;
 }
 
 .header-wrpper .row {
@@ -215,7 +214,16 @@ Header Area CSS HERE
 	column-gap: 55px;
 }
 
-.desktop-navbar ul li a {
+.mobile-navbar ul {
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 25px;
+}
+
+.desktop-navbar ul li a,
+.mobile-navbar ul li a {
 	color: #fefaf3;
 	font-size: 19px;
 	font-weight: 400;
@@ -223,7 +231,12 @@ Header Area CSS HERE
 	transition: color 0.3s ease-in-out;
 }
 
+.mobile-navbar ul li a {
+	color: #003d59;
+}
+
 .desktop-navbar ul li a:hover,
+.mobile-navbar ul li a:hover,
 #menu-active a {
 	color: #f6ac6a;
 }
@@ -244,4 +257,27 @@ Header Area CSS HERE
 
 .lang-controller ul li:first-child {
 	background: #f5a359;
+}
+
+.btn-close:focus {
+	box-shadow: none;
+}
+
+.offcanvas-header {
+	background: #003d59;
+}
+
+.btn-close {
+	background: transparent
+		url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
+		center/1em auto no-repeat;
+	opacity: 1;
+}
+
+.btn-close:hover {
+	opacity: 1;
+}
+
+#offcanvasRightLabel img {
+	width: 90px;
 }
