@@ -71,6 +71,13 @@ Medium Screen - Tablate
 		width: 45px;
 		cursor: pointer;
 	}
+
+	.footer-wrpper {
+		row-gap: 30px;
+	}
+	.footer-inner-area {
+		row-gap: 20px;
+	}
 }
 
 /*===============================
@@ -89,5 +96,24 @@ Xtra Small Screen - Small Mobile
 	}
 	.main-logo a img {
 		width: 110px;
+	}
+
+	.footer-wrpper {
+		row-gap: 30px;
+	}
+	.footer-inner-area {
+		row-gap: 20px;
+	}
+	.footer-menu {
+		flex-wrap: wrap;
+		row-gap: 16px;
+	}
+	.footer-menu li {
+		width: 50%;
+		text-align: center;
+	}
+	.footer-menu li a,
+	.footer-inner-area h4 {
+		font-size: 15px;
 	}
 }
