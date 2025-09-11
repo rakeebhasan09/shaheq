@@ -281,3 +281,22 @@ Header Area CSS HERE
 #offcanvasRightLabel img {
 	width: 90px;
 }
+
+/*======================
+HERO AREA CSS HERE
+========================*/
+.hero-area {
+	background-color: #003d59;
+	padding: 16px 0;
+	border-radius: 0 0 24px 24px;
+}
+
+.hero-area img,
+.hero-wrpper img {
+	width: 100%;
+}
+
+.hero-area img {
+	display: block;
+	margin-top: 10px;
+}
