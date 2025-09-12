@@ -630,3 +630,75 @@ DESKTOP ONE PAGE STYLING HERE
 	padding-right: calc(100% - 1360px / 2);
 	padding-left: 170px;
 }
+
+/*===================================
+Our Values Area STYLING HERE
+=====================================*/
+.our-values-area {
+	padding-top: 200px;
+	padding-bottom: 203px;
+}
+
+.value-title {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 123px;
+}
+
+.single-value {
+	display: flex;
+	flex-direction: column;
+	row-gap: 38px;
+	height: 100%;
+}
+
+.value-icon {
+	width: 142px;
+	height: 142px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	padding: 35px;
+	background: #fbd9bb;
+}
+
+.value-cntn h4 {
+	color: #3b6a7f;
+	text-align: center;
+	font-size: 37px;
+	line-height: 120%;
+}
+
+.value-cntn p {
+	color: #3b6a7f;
+	text-align: center;
+	font-size: 37px;
+	line-height: 120%;
+}
+
+.value-cntn {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.one-line-text {
+	padding-bottom: 113px;
+}
+
+.one-line-text p {
+	max-width: 1160px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: auto;
+	color: #f5a359;
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+}

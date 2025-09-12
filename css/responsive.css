@@ -55,6 +55,16 @@ Extra Large Screen - Others
 	.post-row-tow .post-cntn {
 		padding-right: calc(100% - 1140px / 2);
 	}
+
+	.our-values-area {
+		padding: 100px 0;
+	}
+	.value-title {
+		margin-bottom: 70px;
+	}
+	.value-cntn p {
+		font-size: 26px;
+	}
 }
 
 /*========================
@@ -132,6 +142,16 @@ Large Screen - Leptop
 	}
 	.post-row-tow .post-cntn {
 		padding-right: calc(100% - 960px / 2);
+	}
+
+	.our-values-area {
+		padding: 100px 0;
+	}
+	.value-title {
+		margin-bottom: 70px;
+	}
+	.value-cntn p {
+		font-size: 26px;
 	}
 }
 
@@ -228,6 +248,26 @@ Medium Screen - Tablate
 		padding-left: 50px;
 		padding-right: 50px;
 		margin-left: 0;
+	}
+
+	.our-values-area {
+		padding: 100px 0;
+	}
+	.our-values-wrpper .row {
+		row-gap: 40px;
+	}
+	.single-value {
+		row-gap: 20px;
+	}
+	.value-title {
+		margin-bottom: 40px;
+	}
+	.value-cntn p {
+		font-size: 26px;
+	}
+
+	.one-line-text p {
+		font-size: 32px;
 	}
 }
 
@@ -398,5 +438,38 @@ Xtra Small Screen - Small Mobile
 	}
 	.post-area-two {
 		padding-top: 41px;
+	}
+
+	.our-values-area {
+		padding-top: 35px;
+		padding-bottom: 93px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.value-title {
+		font-size: 47px;
+		margin-bottom: 20px;
+	}
+	.value-icon {
+		width: 94px;
+		height: 94px;
+		padding: 25px;
+	}
+	.value-cntn h4,
+	.value-cntn p {
+		font-size: 19px;
+	}
+	.single-value {
+		row-gap: 20px;
+	}
+	.our-values-wrpper .row {
+		row-gap: 25px;
+	}
+
+	.one-line-text {
+		padding-bottom: 60px;
+	}
+	.one-line-text p {
+		font-size: 21px;
 	}
 }
