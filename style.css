@@ -702,3 +702,62 @@ Our Values Area STYLING HERE
 	font-weight: 700;
 	line-height: 120%;
 }
+
+/*===================================
+DESKTOP TWO STYLING HERE
+=====================================*/
+.desktop-two-banner-cntn p {
+	padding-bottom: 44px;
+}
+
+.post-thumnail.desktop-two img {
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.desktop-tow-post-row .post-cntn {
+	padding-left: 0;
+}
+
+.post-cntn ul {
+	list-style: disc;
+	padding-right: 40px;
+	color: #3b6a7f;
+	text-align: justify;
+	font-size: 37px;
+	line-height: 120%;
+	padding-bottom: 18px;
+	border-bottom: 13px solid #f5a359;
+}
+
+.desktop-tow-post-row-two .post-cntn {
+	padding-left: calc(100% - 1360px / 2);
+}
+
+.desktop-2-main {
+	padding-top: 158px;
+	padding-bottom: 86px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 131px;
+}
+
+.desktop-tow-one-line-text {
+	padding: 47px 0;
+	background: #fdf6ea;
+	margin-bottom: 29px;
+}
+
+.desktop-two-one-line-text-card {
+	max-width: 1083px;
+	margin: auto;
+}
+
+.desktop-two-one-line-text-card p {
+	color: #f5a359;
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+}
