@@ -83,6 +83,10 @@ Large Screen - Leptop
 	.image-slider-area {
 		padding-left: calc((100% - 960px) / 2);
 	}
+
+	.newsletter-area {
+		padding: 100px 0;
+	}
 }
 
 /*=========================
@@ -128,6 +132,10 @@ Medium Screen - Tablate
 	}
 	.image-slider-area {
 		padding-left: calc((100% - 720px) / 2);
+	}
+
+	.newsletter-area {
+		padding: 100px 0;
 	}
 }
 
@@ -230,5 +238,18 @@ Xtra Small Screen - Small Mobile
 
 	.image-slider-area {
 		padding-left: 15px;
+	}
+
+	.newsletter-area {
+		padding-top: 60px;
+		padding-bottom: 32px;
+	}
+	.newsletter-wrpper {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.newsletter-wrpper h3 {
+		font-size: 19px;
+		margin-bottom: 18px;
 	}
 }

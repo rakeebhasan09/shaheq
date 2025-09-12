@@ -482,3 +482,51 @@ FIRST SLIDER AREA CSS HERE
 .imageSlider .swiper-slide img {
 	width: 100%;
 }
+
+.newsletter-area {
+	padding-top: 108px;
+	padding-bottom: 206px;
+}
+
+.newsletter-wrpper {
+	max-width: 500px;
+	margin: auto;
+}
+
+.newsletter-wrpper h3 {
+	text-align: center;
+	font-size: 37px;
+	line-height: 120%;
+	margin-bottom: 50px;
+}
+
+.newsletter-wrpper form {
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.newsletter-wrpper form button {
+	width: 50px;
+	height: 48px;
+	border-radius: 7px 0 0 7px;
+	background-color: #f5a359;
+	border: none;
+}
+
+.newsletter-wrpper form input {
+	width: calc(100% - 50px);
+	color: #003d59;
+	font-size: 15px;
+	line-height: 120%;
+	height: 48px;
+	padding-right: 20px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 1px solid #f5a359;
+	outline: none;
+}
+
+.newsletter-wrpper form input::placeholder {
+	color: #fbd9bb;
+}
