@@ -176,6 +176,11 @@ Large Screen - Leptop
 	.desktop-four-hero-wrpper {
 		padding: 140px 0;
 	}
+
+	.meet-our-heroes-area {
+		padding-top: 100px;
+		padding-bottom: 125px;
+	}
 }
 
 /*=========================
@@ -335,6 +340,11 @@ Medium Screen - Tablate
 	.meet-our-heroes-wrpper .row {
 		margin-top: 180px;
 		row-gap: 170px;
+	}
+
+	.choose-us-list {
+		padding-top: 60px;
+		row-gap: 25px;
 	}
 }
 
@@ -606,5 +616,23 @@ Xtra Small Screen - Small Mobile
 	.meet-our-heroes-wrpper .row {
 		margin-top: 240px;
 		row-gap: 230px;
+	}
+
+	.why-choose-us-wrpper h2 {
+		font-size: 30px;
+	}
+	.choose-us-list {
+		padding-top: 40px;
+		row-gap: 23px;
+	}
+	.choose-us-list li {
+		padding: 10px 13px;
+		gap: 10px;
+	}
+	.choose-us-list li span {
+		font-size: 19px;
+	}
+	.why-choose-us-area {
+		padding-bottom: 48px;
 	}
 }

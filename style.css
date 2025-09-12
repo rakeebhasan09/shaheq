@@ -845,3 +845,55 @@ DESKTOP FOUR STYLING HERE
 	font-weight: 500;
 	line-height: 120%;
 }
+
+/*===================================
+WHY CHOOSE US STYLING HERE
+=====================================*/
+.why-choose-us-area {
+	padding-bottom: 102px;
+}
+
+.why-choose-us-wrpper {
+	max-width: 756px;
+	margin: auto;
+}
+
+.why-choose-us-wrpper h2 {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.choose-us-list {
+	padding-top: 98px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 32px;
+}
+
+.choose-us-list li {
+	padding: 13px 24px;
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	border-radius: 200px;
+	border: 1px solid #fcf3e4;
+	background: #fcf3e4;
+}
+
+.choose-icon {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	padding: 8.5px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background: #fbd9bb;
+}
+
+.choose-us-list li span {
+	font-size: 23px;
+	line-height: 120%;
+}
