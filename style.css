@@ -281,6 +281,8 @@ FOOTER AREA CSS HERE
 	flex-direction: column;
 	align-items: center;
 	row-gap: 62px;
+	position: relative;
+	z-index: 2;
 }
 
 .home-title-wrpper h2 {
@@ -329,6 +331,8 @@ FIRST SLIDER AREA CSS HERE
 	font-weight: 700;
 	line-height: 120%;
 	margin-bottom: 43px;
+	position: relative;
+	z-index: 2;
 }
 
 .swiper {
@@ -529,4 +533,100 @@ FIRST SLIDER AREA CSS HERE
 
 .newsletter-wrpper form input::placeholder {
 	color: #fbd9bb;
+}
+
+.section-one {
+	position: relative;
+	z-index: 2;
+}
+
+.section-one::after {
+	content: url(images/section-one-after-effect.png);
+	display: block;
+	clear: both;
+	position: absolute;
+	top: 0;
+	z-index: 0;
+}
+
+/*===================================
+DESKTOP ONE PAGE STYLING HERE
+=====================================*/
+.desktop-one-banner-area {
+	padding-top: 196px;
+}
+
+.desktop-one-banner-cntn {
+	max-width: 975px;
+	margin: auto;
+	position: relative;
+	z-index: 3;
+}
+
+.desktop-one-banner-area {
+	position: relative;
+	z-index: 2;
+}
+
+.desktop-one-banner-area::after {
+	content: "";
+	display: block;
+	clear: both;
+	position: absolute;
+	background: url(images/desktop-one-banner-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	bottom: 0;
+	width: 100%;
+	height: 330px;
+	left: 0;
+	z-index: 1;
+}
+
+.desktop-one-banner-cntn h3 {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 62px;
+}
+
+.desktop-one-banner-cntn p {
+	color: #3b6a7f;
+	text-align: justify;
+	font-size: 37px;
+	line-height: 120%;
+}
+
+.post-area {
+	padding-top: 132px;
+}
+
+.post-thumnail img {
+	width: 100%;
+}
+
+.post-row-one .post-cntn {
+	padding-left: calc(100% - 1360px / 2);
+	padding-right: 35px;
+}
+
+.post-cntn h3 {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 62px;
+}
+
+.post-cntn p {
+	color: #3b6a7f;
+	text-align: justify;
+	font-size: 37px;
+	line-height: 120%;
+}
+
+.post-row-tow .post-cntn {
+	padding-right: calc(100% - 1360px / 2);
+	padding-left: 170px;
 }

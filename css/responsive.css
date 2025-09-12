@@ -8,6 +8,10 @@ Extra Large Screen - Others
 	.desktop-navbar ul {
 		column-gap: 35px;
 	}
+
+	.desktop-one-banner-area::after {
+		height: 250px;
+	}
 }
 /*=============================
 Extra Large Screen - Others
@@ -32,6 +36,24 @@ Extra Large Screen - Others
 	}
 	.image-slider-area {
 		padding-left: calc((100% - 1140px) / 2);
+	}
+
+	.desktop-one-banner-area::after {
+		height: 220px;
+	}
+
+	.post-cntn h3 {
+		margin-bottom: 35px;
+	}
+	.post-cntn p {
+		font-size: 32px;
+	}
+
+	.post-row-one .post-cntn {
+		padding-left: calc(100% - 1140px / 2);
+	}
+	.post-row-tow .post-cntn {
+		padding-right: calc(100% - 1140px / 2);
 	}
 }
 
@@ -87,6 +109,30 @@ Large Screen - Leptop
 	.newsletter-area {
 		padding: 100px 0;
 	}
+
+	.desktop-one-banner-area::after {
+		height: 220px;
+	}
+	.desktop-one-banner-area {
+		padding-top: 100px;
+	}
+	.desktop-one-banner-cntn h3 {
+		margin-bottom: 25px;
+	}
+
+	.post-cntn h3 {
+		margin-bottom: 25px;
+	}
+	.post-cntn p {
+		font-size: 26px;
+	}
+
+	.post-row-one .post-cntn {
+		padding-left: calc(100% - 960px / 2);
+	}
+	.post-row-tow .post-cntn {
+		padding-right: calc(100% - 960px / 2);
+	}
 }
 
 /*=========================
@@ -117,6 +163,8 @@ Medium Screen - Tablate
 	}
 	.home-title-wrpper {
 		row-gap: 50px;
+		position: relative;
+		z-index: 2;
 	}
 	.home-title-wrpper p {
 		font-size: 28px;
@@ -136,6 +184,50 @@ Medium Screen - Tablate
 
 	.newsletter-area {
 		padding: 100px 0;
+	}
+	.section-one::after {
+		content: url(../images/section-one-mobile-after.png);
+		z-index: 0;
+	}
+
+	.desktop-one-banner-area::after {
+		height: 135px;
+	}
+	.desktop-one-banner-area {
+		padding-top: 80px;
+	}
+	.desktop-one-banner-cntn h3 {
+		margin-bottom: 25px;
+	}
+	.desktop-one-banner-cntn p {
+		font-size: 26px;
+	}
+
+	.post-area {
+		padding-top: 80px;
+	}
+	.post-row-one,
+	.post-row-tow {
+		row-gap: 30px;
+	}
+	.post-row-one .col-lg-6:nth-child(2) {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.post-cntn h3 {
+		margin-bottom: 20px;
+	}
+	.post-cntn p {
+		font-size: 27px;
+	}
+	.post-row-one .post-cntn {
+		padding-right: 0;
+	}
+	.post-row-tow .post-cntn {
+		max-width: 100% !important;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-left: 0;
 	}
 }
 
@@ -182,6 +274,8 @@ Xtra Small Screen - Small Mobile
 	}
 	.home-title-wrpper {
 		row-gap: 30px;
+		position: relative;
+		z-index: 2;
 	}
 	.home-title-wrpper h2 {
 		font-size: 38px;
@@ -207,6 +301,8 @@ Xtra Small Screen - Small Mobile
 		display: flex;
 		flex-direction: column;
 		row-gap: 20px;
+		z-index: 2;
+		position: relative;
 	}
 	.slider-item {
 		margin-right: 0;
@@ -251,5 +347,56 @@ Xtra Small Screen - Small Mobile
 	.newsletter-wrpper h3 {
 		font-size: 19px;
 		margin-bottom: 18px;
+	}
+	.section-one::after {
+		content: url(../images/section-one-mobile-after.png);
+		z-index: 0;
+	}
+
+	.desktop-one-banner-area {
+		padding-top: 100px;
+	}
+	.desktop-one-banner-cntn h3 {
+		font-size: 23px;
+		margin-bottom: 43px;
+	}
+	.desktop-one-banner-cntn p {
+		font-size: 19px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.desktop-one-banner-area::after {
+		height: 100px;
+	}
+
+	.post-area {
+		padding-top: 89px;
+	}
+	.post-row-one,
+	.post-row-tow {
+		row-gap: 26px;
+	}
+	.post-row-one .col-lg-6:nth-child(2) {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.post-cntn h3 {
+		margin-bottom: 20px;
+		font-size: 23px;
+	}
+	.post-cntn p {
+		font-size: 19px;
+	}
+
+	.post-row-one .post-cntn {
+		padding-right: 0;
+	}
+	.post-row-tow .post-cntn {
+		max-width: 100%;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.post-area-two {
+		padding-top: 41px;
 	}
 }
