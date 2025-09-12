@@ -761,3 +761,87 @@ DESKTOP TWO STYLING HERE
 	font-weight: 700;
 	line-height: 120%;
 }
+
+/*===================================
+DESKTOP FOUR STYLING HERE
+=====================================*/
+.desktop-four-hero-wrpper {
+	padding-top: 222px;
+	padding-bottom: 176px;
+	max-width: 1025px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+}
+
+.desktop-four-hero-wrpper h3 {
+	color: #f5a359;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.desktop-four-hero-area img {
+	width: 100%;
+}
+
+.meet-our-heroes-area {
+	padding-top: 112px;
+	padding-bottom: 178px;
+}
+
+.meet-our-heroes-wrpper h2 {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.meet-our-heroes-wrpper .row {
+	margin-top: 289px;
+	row-gap: 250px;
+}
+
+.single-hero-card {
+	padding-top: 94px;
+	padding-right: 44px;
+	padding-bottom: 30px;
+	padding-left: 44px;
+	border-radius: 8px;
+	background: #f5a359;
+	position: relative;
+}
+
+.hero-image {
+	width: 292px;
+	height: 292px;
+	border-radius: 50%;
+	border: 1px solid #f5a359;
+	padding: 27px;
+	position: absolute;
+	top: -198px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.hero-image img {
+	width: 100%;
+}
+
+.hero-desc h4 {
+	color: #3b6a7f;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 15px;
+}
+
+.hero-desc p {
+	text-align: center;
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 120%;
+}

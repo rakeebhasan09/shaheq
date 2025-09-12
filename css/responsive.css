@@ -172,6 +172,10 @@ Large Screen - Leptop
 		padding-bottom: 60px;
 		row-gap: 60px;
 	}
+
+	.desktop-four-hero-wrpper {
+		padding: 140px 0;
+	}
 }
 
 /*=========================
@@ -304,6 +308,33 @@ Medium Screen - Tablate
 
 	.desktop-two-one-line-text-card p {
 		font-size: 30px;
+	}
+
+	.desktop-four-hero-wrpper {
+		padding: 100px 0;
+	}
+
+	.meet-our-heroes-area {
+		padding-top: 80px;
+		padding-bottom: 90px;
+	}
+	.hero-image {
+		width: 200px;
+		height: 200px;
+		padding: 15px;
+		top: -130px;
+	}
+	.single-hero-card {
+		padding-top: 70px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.hero-desc p {
+		font-size: 20px;
+	}
+	.meet-our-heroes-wrpper .row {
+		margin-top: 180px;
+		row-gap: 170px;
 	}
 }
 
@@ -545,5 +576,35 @@ Xtra Small Screen - Small Mobile
 	}
 	.desktop-two-one-line-text-card p {
 		font-size: 19px;
+	}
+
+	.desktop-four-hero-wrpper {
+		padding-top: 69px;
+		padding-bottom: 57px;
+		row-gap: 20px;
+		padding-left: 61px;
+		padding-right: 61px;
+	}
+	.desktop-four-hero-wrpper h3 {
+		font-size: 19px;
+	}
+
+	.meet-our-heroes-area {
+		overflow: hidden;
+	}
+
+	.meet-our-heroes-area .container {
+		padding: 0;
+	}
+	.meet-our-heroes-area {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	.meet-our-heroes-wrpper h2 {
+		font-size: 25px;
+	}
+	.meet-our-heroes-wrpper .row {
+		margin-top: 240px;
+		row-gap: 230px;
 	}
 }
