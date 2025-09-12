@@ -318,7 +318,8 @@ FOOTER AREA CSS HERE
 /*========================
 FIRST SLIDER AREA CSS HERE
 ==========================*/
-.first-slider-area {
+.first-slider-area,
+.second-slider-wrpper {
 	padding-right: calc((100% - 1360px) / 2);
 }
 
@@ -412,4 +413,72 @@ FIRST SLIDER AREA CSS HERE
 
 .mobile-screen-cards {
 	display: none;
+}
+
+/*========================
+Second SLIDER AREA CSS HERE
+==========================*/
+.second-slider {
+	padding-top: 104px;
+	padding-bottom: 180px;
+}
+
+.section-title {
+	max-width: 690px;
+	margin: auto;
+}
+
+.section-title h3 {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 18px;
+}
+
+.section-title p {
+	color: #3b6a7f;
+	text-align: center;
+	font-size: 37px;
+	line-height: 120%;
+}
+
+.circles-parent {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 60px 0;
+}
+
+.circle-shap {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f5a359;
+	transition: background 0.3s ease-in-out;
+}
+
+.circle-shap:hover {
+	background: #c3d8d3;
+}
+
+.single-circle p {
+	text-align: center;
+	font-size: 29px;
+	line-height: 120%;
+}
+
+/*========================
+FIRST SLIDER AREA CSS HERE
+==========================*/
+.image-slider-area {
+	overflow: hidden;
+	padding-left: calc((100% - 1360px) / 2);
+}
+
+.imageSlider .swiper-slide img {
+	width: 100%;
 }

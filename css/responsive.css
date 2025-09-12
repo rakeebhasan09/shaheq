@@ -26,8 +26,12 @@ Extra Large Screen - Others
 		font-size: 17px;
 	}
 
-	.first-slider-area {
+	.first-slider-area,
+	.second-slider-wrpper {
 		padding-right: calc((100% - 1140px) / 2);
+	}
+	.image-slider-area {
+		padding-left: calc((100% - 1140px) / 2);
 	}
 }
 
@@ -68,8 +72,16 @@ Large Screen - Leptop
 		row-gap: 50px;
 	}
 
-	.first-slider-area {
+	.first-slider-area,
+	.second-slider-wrpper {
 		padding-right: calc((100% - 960px) / 2);
+	}
+	.second-slider {
+		padding-bottom: 100px;
+	}
+
+	.image-slider-area {
+		padding-left: calc((100% - 960px) / 2);
 	}
 }
 
@@ -106,8 +118,16 @@ Medium Screen - Tablate
 		font-size: 28px;
 	}
 
-	.first-slider-area {
+	.first-slider-area,
+	.second-slider-wrpper {
 		padding-right: calc((100% - 720px) / 2);
+	}
+	.second-slider {
+		padding-top: 70px;
+		padding-bottom: 60px;
+	}
+	.image-slider-area {
+		padding-left: calc((100% - 720px) / 2);
 	}
 }
 
@@ -183,5 +203,32 @@ Xtra Small Screen - Small Mobile
 	.slider-item {
 		margin-right: 0;
 		margin-bottom: 0;
+	}
+
+	.second-slider {
+		padding-top: 35px;
+		padding-bottom: 45px;
+	}
+	.circles-parent {
+		margin: 25px 0;
+	}
+	.circle-shap {
+		width: 78px;
+		height: 78px;
+		padding: 20px;
+	}
+	.section-title h3 {
+		font-size: 23px;
+	}
+	.section-title p {
+		font-size: 19px;
+	}
+	.single-circle p {
+		font-size: 15px;
+		margin-top: 5px;
+	}
+
+	.image-slider-area {
+		padding-left: 15px;
 	}
 }
