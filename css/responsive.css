@@ -181,6 +181,21 @@ Large Screen - Leptop
 		padding-top: 100px;
 		padding-bottom: 125px;
 	}
+
+	.desktop-five-hero {
+		padding-top: 140px;
+	}
+	.desktop-five-hero-wrpper h3 {
+		font-size: 30px;
+	}
+
+	.explore-now-area {
+		padding-top: 0px;
+		padding-bottom: 70px;
+	}
+	.explore-now-area a {
+		margin-top: 60px;
+	}
 }
 
 /*=========================
@@ -345,6 +360,37 @@ Medium Screen - Tablate
 	.choose-us-list {
 		padding-top: 60px;
 		row-gap: 25px;
+	}
+
+	.desktop-five-hero {
+		padding-top: 110px;
+	}
+	.desktop-five-hero-wrpper h3 {
+		font-size: 30px;
+	}
+	.desktop-five-hero-wrpper {
+		row-gap: 50px;
+	}
+
+	.desktop-five-banner-cntn {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.desktop-five-banner-cntn h2 {
+		font-size: 35px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.desktop-five-banner-cntn a {
+		margin-top: 50px;
+	}
+
+	.explore-now-area {
+		padding-top: 0px;
+		padding-bottom: 70px;
+	}
+	.explore-now-area a {
+		margin-top: 60px;
 	}
 }
 
@@ -634,5 +680,63 @@ Xtra Small Screen - Small Mobile
 	}
 	.why-choose-us-area {
 		padding-bottom: 48px;
+	}
+
+	.desktop-five-hero {
+		padding-top: 51px;
+		padding-bottom: 45px;
+	}
+	.desktop-five-hero-wrpper h2 {
+		font-size: 23px;
+		padding: 0 58px;
+	}
+	.desktop-five-hero-wrpper h3 {
+		font-size: 19px;
+		padding: 0 23.5px;
+	}
+	.desktop-five-hero-wrpper {
+		row-gap: 36px;
+	}
+
+	.desktop-five-banner-cntn {
+		padding-top: 25px;
+		padding-bottom: 46px;
+	}
+
+	.desktop-five-banner-cntn h3 {
+		font-size: 29px;
+		padding-left: 40px;
+		padding-right: 40px;
+		margin-bottom: 23px;
+	}
+
+	.desktop-five-banner-cntn h2 {
+		font-size: 19px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 0px;
+	}
+
+	.desktop-five-banner-cntn a {
+		font-size: 19px;
+		width: 201px;
+		height: 51px;
+		border-radius: 52px;
+		margin-top: 46px;
+	}
+
+	.explore-now-area {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.explore-now-area .desktop-five-banner-cntn {
+		padding-top: 46px;
+		padding-bottom: 29px;
+	}
+
+	.explore-now-area .desktop-five-banner-cntn h2 {
+		max-width: 302px;
+		margin: auto;
 	}
 }

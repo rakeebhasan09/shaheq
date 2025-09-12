@@ -897,3 +897,96 @@ WHY CHOOSE US STYLING HERE
 	font-size: 23px;
 	line-height: 120%;
 }
+
+/*===================================
+DESKTOP FIVE STYLING HERE
+=====================================*/
+.desktop-five-hero {
+	padding-top: 195px;
+	padding-bottom: 110px;
+}
+
+.desktop-five-hero-wrpper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 71px;
+}
+
+.desktop-five-hero-wrpper h2 {
+	color: #f5a359;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.desktop-five-hero-wrpper h3 {
+	color: #f5a359;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+	padding: 0 52px;
+}
+
+.desktop-five-banner-wrpper img {
+	width: 100%;
+}
+
+.desktop-five-banner-cntn {
+	padding-top: 74px;
+	padding-bottom: 43px;
+}
+
+.desktop-five-banner-cntn h3 {
+	color: #003d59;
+	text-align: center;
+	font-size: 37px;
+	line-height: 120%;
+}
+
+.desktop-five-banner-cntn h2 {
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+	padding-left: 92.5px;
+	padding-right: 92.5px;
+	margin-top: 19px;
+}
+
+.desktop-five-banner-cntn a {
+	color: #fcf3e4;
+	font-size: 29px;
+	font-weight: 500;
+	line-height: 120%;
+	width: 344px;
+	height: 76px;
+	border-radius: 24px;
+	background: #f5a359;
+	border: 2px solid #f5a359;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 74px;
+	transition: all 0.3s ease-in-out;
+}
+
+.desktop-five-banner-cntn a:hover {
+	background: transparent;
+	color: #003d59;
+}
+
+.divider img {
+	width: 100%;
+}
+
+.explore-now-area {
+	padding-top: 54px;
+	padding-bottom: 119px;
+}
+
+.explore-now-area a {
+	margin-top: 97px;
+}
