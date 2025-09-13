@@ -1119,3 +1119,119 @@ DESKTOP THREE STYLING HERE
 	font-weight: 700;
 	line-height: 120%;
 }
+
+/*===================================
+DESKTOP SIX STYLING HERE
+=====================================*/
+.desktopSixSlider .swiper-slide img {
+	width: 100%;
+}
+
+.desktopSixSlider {
+	position: relative;
+}
+
+.button-next,
+.button-prev {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #c3d8d3;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 333;
+}
+
+.button-prev {
+	left: 58px;
+}
+
+.button-next {
+	right: 58px;
+}
+
+.swiper {
+	width: 100%;
+}
+
+.swiper.desktopSixSlider {
+	margin-right: 0;
+}
+
+.d-6-four-cards-area {
+	padding-top: 96px;
+	padding-bottom: 58px;
+}
+
+.d6-four-cards-wrpper {
+	max-width: 645px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.d6-four-cards-wrpper .slider-item {
+	width: 47%;
+}
+
+.faq-area {
+	padding-bottom: 143px;
+}
+
+.faq-wrpper {
+	max-width: 936px;
+	margin: auto;
+}
+
+.accordion-button::after {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.accordion-button:focus {
+	box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: transparent;
+	box-shadow: none;
+	color: #003d59;
+}
+
+.accordion-item {
+	border: none;
+	border-bottom: 1px solid rgba(18, 17, 39, 0.12);
+	padding: 24px 0;
+}
+
+.accordion-button::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F5A359'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F5A359'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-header button {
+	color: #003d59;
+	text-align: right;
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 120%;
+}
+
+.accordion-body p {
+	color: #1a516a;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.accordion-button {
+	padding: 0 1.25rem;
+}

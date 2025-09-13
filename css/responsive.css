@@ -463,6 +463,21 @@ Medium Screen - Tablate
 	.ready-to-live-wrpper a {
 		margin-top: 60px;
 	}
+
+	.button-prev {
+		left: 25px;
+	}
+	.button-next {
+		right: 25px;
+	}
+
+	.accordion-item {
+		padding: 12px 0;
+	}
+
+	.faq-area {
+		padding-bottom: 100px;
+	}
 }
 
 /*===============================
@@ -865,5 +880,46 @@ Xtra Small Screen - Small Mobile
 	}
 	.ready-to-live-wrpper {
 		padding: 0 15px;
+	}
+
+	.button-next,
+	.button-prev {
+		width: 30px;
+		height: 30px;
+		padding: 17px;
+	}
+	.button-next img,
+	.button-prev img {
+		width: 18px;
+	}
+	.button-next {
+		right: 20px;
+	}
+	.button-prev {
+		left: 20px;
+	}
+
+	.d-6-four-cards-area {
+		padding: 60px 48px 73px;
+	}
+	.d6-four-cards-wrpper {
+		row-gap: 10px;
+	}
+	.d6-four-cards-wrpper .slider-item {
+		width: 100%;
+	}
+
+	.accordion-button {
+		padding: 0 0.25rem;
+	}
+	.accordion-header button {
+		font-size: 16px;
+	}
+	.faq-area {
+		padding-bottom: 55px;
+	}
+	.accordion-body {
+		padding: 1rem 0.25rem;
+		padding-bottom: 0;
 	}
 }
