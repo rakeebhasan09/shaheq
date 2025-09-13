@@ -91,6 +91,11 @@ Extra Large Screen - Others
 	.ready-to-live {
 		padding-top: 100px;
 	}
+
+	.booking-confirmation-wrpper {
+		padding-top: 100px;
+		padding-bottom: 200px;
+	}
 }
 
 /*========================
@@ -234,6 +239,11 @@ Large Screen - Leptop
 
 	.ready-to-live {
 		padding-top: 80px;
+	}
+
+	.booking-confirmation-wrpper {
+		padding-top: 80px;
+		padding-bottom: 150px;
 	}
 }
 
@@ -477,6 +487,14 @@ Medium Screen - Tablate
 
 	.faq-area {
 		padding-bottom: 100px;
+	}
+
+	.booking-confirmation-wrpper {
+		padding-top: 80px;
+		padding-bottom: 150px;
+	}
+	.booking-confirmation-wrpper h3 {
+		margin-bottom: 50px;
 	}
 }
 
@@ -921,5 +939,36 @@ Xtra Small Screen - Small Mobile
 	.accordion-body {
 		padding: 1rem 0.25rem;
 		padding-bottom: 0;
+	}
+
+	.booking-confirmation-wrpper {
+		padding-top: 80px;
+		padding-bottom: 150px;
+	}
+	.booking-confirmation-wrpper h3 {
+		margin-bottom: 50px;
+	}
+	.booking-confirmation-wrpper {
+		padding-top: 80px;
+		padding-bottom: 90px;
+	}
+	.booking-confirmation-wrpper h3 {
+		margin-bottom: 29px;
+	}
+
+	.input-row input {
+		font-size: 19px;
+		padding-top: 10px !important;
+	}
+
+	.form-submit button {
+		width: 193px;
+		height: 33px;
+		font-size: 15px;
+		border-radius: 4px;
+		margin-top: 41px;
+	}
+	.input-row #mobile_code {
+		padding-left: 70px !important;
 	}
 }
