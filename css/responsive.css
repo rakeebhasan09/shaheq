@@ -73,6 +73,24 @@ Extra Large Screen - Others
 		padding-top: 110px;
 		row-gap: 80px;
 	}
+
+	.desktop-three-hero-wrpper {
+		padding-top: 200px;
+	}
+	.desktop-three-hero-cntn h4 {
+		margin-top: 250px;
+	}
+
+	.categories {
+		row-gap: 30px;
+	}
+	.single-category {
+		row-gap: 10px;
+	}
+
+	.ready-to-live {
+		padding-top: 100px;
+	}
 }
 
 /*========================
@@ -195,6 +213,27 @@ Large Screen - Leptop
 	}
 	.explore-now-area a {
 		margin-top: 60px;
+	}
+
+	.desktop-three-hero-wrpper {
+		padding-top: 200px;
+	}
+	.desktop-three-hero-cntn h4 {
+		margin-top: 200px;
+	}
+
+	.experiment-categories-wrpper {
+		margin-top: 10px;
+	}
+	.categories {
+		row-gap: 30px;
+	}
+	.single-category {
+		row-gap: 10px;
+	}
+
+	.ready-to-live {
+		padding-top: 80px;
 	}
 }
 
@@ -390,6 +429,38 @@ Medium Screen - Tablate
 		padding-bottom: 70px;
 	}
 	.explore-now-area a {
+		margin-top: 60px;
+	}
+
+	.desktop-three-hero-wrpper {
+		padding-top: 110px;
+	}
+	.desktop-three-hero-cntn h4 {
+		margin-top: 170px;
+	}
+
+	.experiment-categories-wrpper {
+		margin-top: 10px;
+	}
+	.categories {
+		row-gap: 30px;
+	}
+	.single-category {
+		row-gap: 10px;
+	}
+	.experiment-categories-img img {
+		width: 60%;
+		display: block;
+		margin: auto;
+	}
+	.experiment-categories-wrpper .row {
+		row-gap: 30px;
+	}
+
+	.ready-to-live {
+		padding-top: 80px;
+	}
+	.ready-to-live-wrpper a {
 		margin-top: 60px;
 	}
 }
@@ -738,5 +809,61 @@ Xtra Small Screen - Small Mobile
 	.explore-now-area .desktop-five-banner-cntn h2 {
 		max-width: 302px;
 		margin: auto;
+	}
+
+	.desktop-three-hero-wrpper {
+		padding-top: 50px;
+		padding-bottom: 85px;
+	}
+	.desktop-three-hero-cntn h2 {
+		font-size: 21px;
+	}
+	.desktop-three-hero-cntn h3 {
+		font-size: 21px;
+	}
+	.desktop-three-hero-cntn h4 {
+		display: none;
+	}
+	.experiment-categories-area .desktop-three-hero-cntn h4 {
+		display: block;
+		margin-top: 0;
+		font-size: 30px;
+	}
+
+	.experiment-categories-wrpper {
+		margin-top: 10px;
+	}
+	.categories {
+		row-gap: 30px;
+		padding: 0 42px;
+	}
+	.single-category {
+		row-gap: 10px;
+	}
+	.experiment-categories-img img {
+		width: 85%;
+		display: block;
+		margin: auto;
+		margin-top: 30px;
+	}
+	.experiment-categories-wrpper .row {
+		row-gap: 30px;
+	}
+
+	.ready-to-live {
+		padding-top: 86px;
+		padding-bottom: 29px;
+	}
+	.ready-to-live-wrpper a {
+		width: 201px;
+		height: 51px;
+		font-size: 19px;
+		margin-top: 36px;
+	}
+	.ready-to-live-wrpper h3 {
+		font-size: 23px;
+	}
+	.ready-to-live-wrpper {
+		padding: 0 15px;
 	}
 }

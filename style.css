@@ -990,3 +990,132 @@ DESKTOP FIVE STYLING HERE
 .explore-now-area a {
 	margin-top: 97px;
 }
+
+/*===================================
+DESKTOP THREE STYLING HERE
+=====================================*/
+.desktop-three-hero {
+	background: url(images/desktop-3-hero-banner.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.desktop-three-hero-wrpper {
+	padding-top: 310px;
+	padding-bottom: 30px;
+}
+
+.desktop-three-hero-cntn {
+	max-width: 601px;
+	margin: auto;
+}
+
+.desktop-three-hero-cntn h2 {
+	color: #f5a359;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+	padding: 0 30px;
+}
+
+.desktop-three-hero-cntn h3 {
+	color: #f5a359;
+	text-align: center;
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-top: 25px;
+}
+
+.desktop-three-hero-cntn h4 {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-top: 340px;
+}
+
+.experiment-categories-wrpper {
+	margin-top: 41px;
+}
+
+.experiment-categories-img img {
+	width: 100%;
+}
+
+.categories {
+	display: flex;
+	flex-direction: column;
+	row-gap: 53px;
+}
+
+.single-category {
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+}
+
+.single-category img {
+	width: 51px;
+}
+
+.single-category h3 {
+	text-align: right;
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.single-category p {
+	color: #f5a359;
+	text-align: right;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.experiment-categories-area .desktop-three-hero-cntn h4 {
+	display: none;
+}
+
+.ready-to-live-wrpper a {
+	display: flex;
+	width: 344px;
+	height: 76px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
+	background: #f5a359;
+	border: 2px solid #f5a359;
+	color: #fcf3e4;
+	font-size: 29px;
+	font-weight: 500;
+	line-height: 120%;
+	margin: auto;
+	margin-top: 76px;
+	transition: all 0.3s ease-in-out;
+}
+
+.ready-to-live-wrpper a:hover {
+	background-color: transparent;
+	color: #003d59;
+}
+
+.ready-to-live {
+	padding-top: 153px;
+	padding-bottom: 35px;
+}
+
+.ready-to-live-wrpper {
+	max-width: 601px;
+	padding: 0 62.5px;
+	margin: auto;
+}
+
+.ready-to-live-wrpper h3 {
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+}
