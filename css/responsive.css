@@ -971,4 +971,32 @@ Xtra Small Screen - Small Mobile
 	.input-row #mobile_code {
 		padding-left: 70px !important;
 	}
+
+	.booking-confirm-wrpper img {
+		width: 250px;
+	}
+	.booking-confirm-wrpper {
+		padding-top: 50px;
+		padding-bottom: 51px;
+	}
+	.booking-confirm-wrpper h3,
+	.booking-confirm-wrpper h4 {
+		color: #f5a359;
+		text-align: center;
+		font-size: 23px;
+		font-weight: 700;
+		line-height: 120%;
+	}
+	.booking-confirm-wrpper h4 {
+		margin-top: 30px;
+		margin-bottom: 35px;
+	}
+
+	.booking-confirm-wrpper button {
+		width: 209px;
+		height: 45px;
+		font-size: 19px;
+		margin-top: 36px;
+		padding-bottom: 7px;
+	}
 }
