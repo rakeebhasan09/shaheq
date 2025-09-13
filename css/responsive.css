@@ -496,6 +496,21 @@ Medium Screen - Tablate
 	.booking-confirmation-wrpper h3 {
 		margin-bottom: 50px;
 	}
+
+	.desktop-nine-main {
+		padding-top: 100px;
+		padding-bottom: 71px;
+	}
+	.desktop-nine-wrpper > h2 {
+		margin-bottom: 80px;
+	}
+	.desktop-nine-wrpper .accordion-item {
+		padding: 25px 25px 30px 5px;
+	}
+	.desktop-nine-wrpper .booking-confirm-wrpper {
+		padding-top: 90px;
+		padding-bottom: 0;
+	}
 }
 
 /*===============================
@@ -998,5 +1013,40 @@ Xtra Small Screen - Small Mobile
 		font-size: 19px;
 		margin-top: 36px;
 		padding-bottom: 7px;
+	}
+
+	.desktop-nine-main {
+		padding-top: 80px;
+		padding-bottom: 46px;
+	}
+
+	.desktop-nine-wrpper > h2 {
+		font-size: 23px;
+		margin-bottom: 29px;
+	}
+	.desktop-nine-wrpper .accordion-item {
+		padding: 25px 25px 30px 5px;
+	}
+	.desktop-nine-wrpper .booking-confirm-wrpper {
+		padding-top: 23px;
+		padding-bottom: 0;
+	}
+	.desktop-nine-wrpper .accordion-header .btn-cntn h4 {
+		font-size: 12px;
+	}
+	.desktop-nine-wrpper .accordion-header .btn-cntn p {
+		font-size: 12px;
+		margin-right: 16px;
+	}
+	.desktop-nine-wrpper .accordion-item {
+		border-radius: 4px;
+		padding: 20px 10px 20px 14px;
+	}
+	.btn-price-card {
+		margin-left: 20px;
+	}
+	.desktop-nine-wrpper .accordion-button::after {
+		position: absolute;
+		left: -3px;
 	}
 }
