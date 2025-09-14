@@ -511,6 +511,10 @@ Medium Screen - Tablate
 		padding-top: 90px;
 		padding-bottom: 0;
 	}
+
+	#desktop-twenty-submit {
+		padding-bottom: 126px !important;
+	}
 }
 
 /*===============================
@@ -1108,5 +1112,18 @@ Xtra Small Screen - Small Mobile
 	}
 	#desktop-seventen .booking-confirmation-wrpper {
 		padding-bottom: 30px;
+	}
+
+	#desktop-twenty-submit {
+		padding-bottom: 106px !important;
+	}
+
+	.desktop-twentyfour-wrpper {
+		padding-top: 76px;
+		padding-bottom: 83px;
+	}
+	.desktop-twentyfour-wrpper h3 {
+		font-size: 23px;
+		margin-bottom: 35px;
 	}
 }

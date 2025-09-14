@@ -1716,3 +1716,31 @@ input[type="radio"]:checked + label .radio-custom::after {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+.desktop-nineten .confirm-box {
+	margin: 10px 0 !important;
+}
+
+#desktop-twenty-submit {
+	padding-bottom: 182px !important;
+}
+
+.desktop-twentyfour-wrpper {
+	padding-top: 135px;
+	padding-bottom: 30px;
+}
+
+.desktop-twentyfour-wrpper h3 {
+	color: #f5a359;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+	margin-bottom: 41px;
+}
+
+.desktop-twentyfour-wrpper img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
