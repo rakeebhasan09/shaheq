@@ -1589,10 +1589,52 @@ input[type="radio"]:checked + label .radio-custom::after {
 .radio-row {
 	width: 100%;
 }
- {
-	width: 100%;
-}
 
 #desktop-ten-main .booking-confirm-wrpper {
 	padding-top: 0;
+}
+
+#desktop-seventen .booking-confirmation-wrpper > h3 {
+	margin-bottom: 52px;
+}
+
+.user-image-card {
+	width: 146px;
+	height: 146px;
+	border-radius: 50%;
+	padding: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fcf3e4;
+	margin: auto;
+}
+
+.user-image-wrpper h5 {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 120%;
+	text-decoration: underline;
+	margin-top: 19px;
+	margin-bottom: 91px;
+}
+
+.form-group {
+	position: relative;
+}
+
+.upload-img-icon {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#desktop-seventen .form-submit button {
+	margin-top: 39px;
+}
+
+#desktop-seventen .booking-confirmation-wrpper {
+	padding-bottom: 68px;
 }
