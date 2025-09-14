@@ -1049,4 +1049,38 @@ Xtra Small Screen - Small Mobile
 		position: absolute;
 		left: -3px;
 	}
+
+	.radio-label img {
+		width: 65px;
+	}
+
+	.payment-options
+		.option-row:last-child
+		.single-payout-method
+		.radio-label
+		img {
+		width: 200px;
+		object-fit: contain;
+	}
+
+	.single-payout-method .radio-label {
+		column-gap: 15px;
+	}
+	.single-payout-method {
+		height: 50px;
+	}
+	.radio-custom {
+		width: 12px;
+		height: 12px;
+		flex: 0 0 12px;
+	}
+	.radio-custom::after {
+		width: 6px;
+		height: 6px;
+	}
+
+	#paypal-mobile {
+		height: 45px;
+		object-fit: contain;
+	}
 }

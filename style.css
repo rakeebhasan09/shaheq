@@ -1484,3 +1484,115 @@ DESKTOP NINE STYLING HERE
 	padding-top: 153px;
 	padding-bottom: 0;
 }
+
+/*===================================
+DESKTOP TEN STYLING HERE
+=====================================*/
+#desktop-ten-main #accordionExample {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.payment-options {
+	max-width: 554px;
+	margin: auto;
+}
+
+/* Layout */
+.radio-label {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	padding: 10px 12px;
+	border-radius: 10px;
+	cursor: pointer;
+	user-select: none;
+	transition: background 0.15s, box-shadow 0.12s, transform 0.06s;
+	border: 1px solid transparent;
+}
+
+/* Hide native radio but keep accessible */
+input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	width: 1px;
+	height: 1px;
+	margin: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	overflow: hidden;
+}
+
+/* Visual radio */
+.radio-custom {
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	border: 2px solid #f7b87f;
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	flex: 0 0 27px;
+}
+
+/* The inner dot */
+.radio-custom::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: #f7b87f;
+	transition: transform 150ms cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+/* Checked */
+input[type="radio"]:checked + label .radio-custom {
+	border-color: #f7b87f;
+}
+input[type="radio"]:checked + label .radio-custom::after {
+	transform: translate(-50%, -50%) scale(1);
+}
+
+.single-payout-method .radio-label {
+	display: flex;
+	align-items: center;
+	column-gap: 28px;
+}
+
+.single-payout-method {
+	width: 45%;
+	height: 101.672px;
+	display: flex;
+	align-items: center;
+	border-radius: 4px;
+	border: 1px solid #f7b87f;
+}
+
+.option-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.payment-options {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+}
+
+.payment-options .option-row:last-child .single-payout-method,
+.radio-row {
+	width: 100%;
+}
+ {
+	width: 100%;
+}
+
+#desktop-ten-main .booking-confirm-wrpper {
+	padding-top: 0;
+}
