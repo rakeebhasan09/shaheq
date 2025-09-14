@@ -1638,3 +1638,81 @@ input[type="radio"]:checked + label .radio-custom::after {
 #desktop-seventen .booking-confirmation-wrpper {
 	padding-bottom: 68px;
 }
+
+.custom-checkbox {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	column-gap: 10px;
+}
+
+.custom-checkbox input {
+	display: none;
+}
+
+.checkmark {
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border: 1px solid #f5a359;
+	border-radius: 4px;
+	margin-right: 10px;
+	position: relative;
+}
+
+.custom-checkbox input:checked + .checkmark {
+	background-color: transparent;
+}
+
+.checkmark::after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+	display: block;
+}
+
+.checkmark::after {
+	left: 6px;
+	top: 2px;
+	width: 6px;
+	height: 10px;
+	border: solid #003d59;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+.confirm-box label {
+	font-family: var(--poppins);
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.confirm-box {
+	display: flex;
+	justify-content: center;
+	margin: 27px 0;
+}
+
+#desktop-eighten-submit button {
+	margin-top: 0 !important;
+}
+
+.fa-eye {
+	cursor: pointer;
+}
+
+.form-bottom {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 120%;
+	margin-top: 42px;
+}
+
+.form-bottom {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
