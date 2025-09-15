@@ -1744,3 +1744,73 @@ input[type="radio"]:checked + label .radio-custom::after {
 	margin: auto;
 	max-width: 100%;
 }
+
+.desktop-20-main {
+	padding-top: 161px;
+	padding-bottom: 45px;
+}
+
+.desktop-twenty-wrpper {
+	max-width: 746px;
+	margin: auto;
+}
+
+.desktop-twenty-wrpper h3 {
+	color: #f5a359;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.desktop-twenty-wrpper form {
+	margin-top: 49px;
+}
+
+.desktop-twenty-wrpper form label {
+	font-size: 23px;
+	line-height: 120%;
+	display: block;
+	margin-bottom: 16px;
+}
+
+.desktop-twenty-wrpper form input {
+	padding: 22px 16px;
+	outline: none;
+	color: #96afbb;
+	font-size: 23px;
+	line-height: 120%;
+	width: 100%;
+	border-radius: 72px;
+	border: 1px solid #003d59;
+}
+
+.desktop-twenty-wrpper form button {
+	color: #fcf3e4;
+	font-size: 29px;
+	font-weight: 500;
+	line-height: 120%;
+	width: 441px;
+	height: 76px;
+	border-radius: 24px;
+	background: #f5a359;
+	border: 2px solid #f5a359;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 75px;
+	transition: all 0.3s ease-in-out;
+}
+
+.desktop-twenty-wrpper form button:hover {
+	background-color: transparent;
+	color: #003d59;
+}
+
+.desktop-twenty-wrpper p {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 120%;
+	margin-top: 50px;
+}
