@@ -323,6 +323,7 @@ FIRST SLIDER AREA CSS HERE
 .first-slider-area,
 .second-slider-wrpper {
 	padding-right: calc((100% - 1360px) / 2);
+	overflow: hidden;
 }
 
 .first-slider-heading {
@@ -1155,7 +1156,7 @@ DESKTOP SIX STYLING HERE
 }
 
 .swiper {
-	width: 100%;
+	width: 101%;
 }
 
 .swiper.desktopSixSlider {
@@ -1858,4 +1859,19 @@ input[type="radio"]:checked + label .radio-custom::after {
 .filled {
 	border-color: #f5a359; /* ইনপুট দিলে এই রঙ হবে */
 	color: #f5a359;
+}
+
+.swiper.desktopSixSlider {
+	width: 100%;
+}
+
+.accordion-header button {
+	position: relative;
+}
+
+.accordion-header button::after {
+	position: absolute;
+	left: 12px;
+	top: 50%;
+	transform: translateY(-50%);
 }
