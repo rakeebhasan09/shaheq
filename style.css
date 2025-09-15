@@ -1814,3 +1814,48 @@ input[type="radio"]:checked + label .radio-custom::after {
 	line-height: 120%;
 	margin-top: 50px;
 }
+
+.desktop-twentyone-main {
+	padding-top: 169px;
+	padding-bottom: 96px;
+}
+
+.twentyone-main-wrpper h3 {
+	color: #f5a359;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.otp-parent {
+	margin-top: 140px;
+	margin-bottom: 98px;
+}
+
+.twentyone-main-wrpper p {
+	text-align: center;
+	font-size: 23px;
+	line-height: 120%;
+}
+
+.otp-container {
+	display: flex;
+	gap: 24px;
+	justify-content: center;
+}
+.otp-input {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 22px;
+	border: 2px solid #96afbb;
+	color: #96afbb;
+	outline: none;
+	border-radius: 12.5px;
+	transition: border-color 0.2s;
+}
+.filled {
+	border-color: #f5a359; /* ইনপুট দিলে এই রঙ হবে */
+	color: #f5a359;
+}

@@ -249,6 +249,14 @@ Large Screen - Leptop
 	.desktop-20-main {
 		padding-top: 110px;
 	}
+
+	.twentyone-main-wrpper h3 {
+		font-size: 30px;
+	}
+	.otp-parent {
+		margin-top: 100px;
+		margin-bottom: 65px;
+	}
 }
 
 /*=========================
@@ -1158,5 +1166,17 @@ Xtra Small Screen - Small Mobile
 	.desktop-twenty-wrpper p {
 		font-size: 15px;
 		margin-top: 30px;
+	}
+
+	.desktop-twentyone-main {
+		padding-top: 165px;
+		padding-bottom: 79px;
+	}
+	.twentyone-main-wrpper h3 {
+		font-size: 23px;
+	}
+	.otp-parent {
+		margin-top: 50px;
+		margin-bottom: 80px;
 	}
 }
